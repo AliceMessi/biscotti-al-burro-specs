@@ -4,7 +4,7 @@ A Lens for Specs that puts the recipe on the things it's about. Pinch a containe
 
 Made for [Learn AR with SPECS](https://learn-specs.devpost.com) (Devpost Learn). The idea, the recipe and the design brief are mine. The Lens was built from that brief with CLAD in Lens Studio.
 
-- **Demo video (under 3 min):** _link added after upload_
+- **Demo video (1:54):** https://youtu.be/wPRcTMHItoQ
 - **Design brief:** [`devpost/design-brief.md`](devpost/design-brief.md)
 
 | Pinch → dose | "Fatto" → next step | Timer + reminder on the oven | Recap when the oven is out of view |

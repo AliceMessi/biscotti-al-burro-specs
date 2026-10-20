@@ -1,0 +1,67 @@
+- !<AssetImportMetadata/306e5d15-c210-4c6d-855e-2d57f698cfa8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 55bd5a3c-6dc1-42e0-be44-bc0d6b9db689
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 55bd5a3c-6dc1-42e0-be44-bc0d6b9db689
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ca575d21-8d0f-4072-bbc6-5c811383da04
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ca575d21-8d0f-4072-bbc6-5c811383da04>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 57f9eb8e-7c3d-43d9-84b2-e836f2ead65c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    deadZoneCm: false
+    distanceCm: false
+    followSpeed: false
+    lowAngleDeg: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      distanceCm: !<float> 100.000000
+      lowAngleDeg: !<float> 14.000000
+      followSpeed: 2.500000
+      deadZoneCm: !<float> 8.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">BiscottiLazyFollow – gentle low-in-view follow</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">References</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input Component.Camera camera {"hint":"The world camera (Camera Object)"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float distanceCm = 100 {"hint":"Distance from the eyes in cm (brief: about 1 m)", "widget":"slider", "min":50, "max":200, "step":5}'
+    - '// @input float lowAngleDeg = 14 {"hint":"How far below the centre of view, in degrees (brief: low rather than high)", "widget":"slider", "min":0, "max":25, "step":0.5}'
+    - '// @input float followSpeed = 2.5 {"hint":"Catch-up speed once it starts following (higher = snappier)", "widget":"slider", "min":0.5, "max":10, "step":0.1}'
+    - "// @input float deadZoneCm = 8 {\"hint\":\"Dead zone in cm: small head moves don't drag the strip along\", \"widget\":\"slider\", \"min\":0, \"max\":30, \"step\":0.5}"
+    - '// @ui {"widget":"group_end"}'

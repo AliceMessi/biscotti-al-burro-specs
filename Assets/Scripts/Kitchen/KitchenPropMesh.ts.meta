@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/a698aece-43b4-4b80-be79-1ef7c5ce3893>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3e12d16b-c421-425c-a774-c33f5465ef07
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3e12d16b-c421-425c-a774-c33f5465ef07
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2122cd49-bd86-48d4-b12f-755635050c19
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2122cd49-bd86-48d4-b12f-755635050c19>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 31aed232-d2f5-43b1-a114-7035eb838990
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    kind: false
+    material: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - kind: mixingBowl
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string kind = "mixingBowl" {"hint":"Which stand-in to build. Sizes and colours are in the preset tables at the top of this file.", "widget":"combobox", "values":[{"label":"Table", "value":"table"}, {"label":"Mixing bowl (empty)", "value":"mixingBowl"}, {"label":"Flour bowl (large)", "value":"flourBowl"}, {"label":"Sugar bowl (medium)", "value":"sugarBowl"}, {"label":"Butter saucepan (small)", "value":"butterPan"}, {"label":"Egg cup", "value":"eggCup"}, {"label":"Yolk cup", "value":"yolkCup"}, {"label":"Baking powder dish + sachet", "value":"bakingPowderDish"}, {"label":"Gas oven", "value":"oven"}]}'
+    - '// @input Asset.Material material {"hint":"Vertex-colour material (vertexBaseColorMaterial from the SimpleVertexBaseColor package)"}'

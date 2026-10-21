@@ -61,7 +61,7 @@ To run them, open the project in Lens Studio 5.24+, open the LEAF panel and run 
 - Idea, recipe and design decisions: mine, recorded in `devpost/design-brief.md`.
 - Code and scene: generated with CLAD (Claude Code + Lens Studio MCP) from the brief.
 - Packages: Spectacles Interaction Kit, Spectacles UI Kit and LEAF by Snap Inc., under their own licenses.
-- Demo video: the kitchen footage was generated with AI (Kling on Higgsfield), and the narration is my own cloned voice. The Lens footage is a real recording of the Lens Studio preview.
+- Demo video: the kitchen footage was generated with AI (Kling on Higgsfield). The Lens footage is a real recording of the Lens Studio preview.
 
 ## License
 
